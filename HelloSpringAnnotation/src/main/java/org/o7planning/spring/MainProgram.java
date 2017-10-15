@@ -29,6 +29,8 @@ public class MainProgram {
 		MyComponent myComponent = (MyComponent) context.getBean("myComponent");
 
 		myComponent.showApp();
+		
+		System.out.println("ManhNT");
 	}
 
 }
